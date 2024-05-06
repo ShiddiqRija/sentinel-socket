@@ -1,0 +1,18 @@
+{
+  "name": "sentinel-websocket",
+  "version": "1.0.0",
+  "description": "Websocket to help realtime data from device to dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shiddiq Rija",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.4"
+  }
+}
